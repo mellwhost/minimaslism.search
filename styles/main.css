@@ -1,0 +1,29 @@
+* {
+  border-sizing: border-box;
+  margin: 0;
+  font-family: "Geist", sans-serif;
+  padding: 0;
+}
+body {
+  gap: 1em;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+.bsc-item-type_logo {
+  font-size: 50px;
+  font-weight: 600;
+}
+button {
+  background-color: transparent;
+  border: solid 2px #000;
+  color: #000;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
